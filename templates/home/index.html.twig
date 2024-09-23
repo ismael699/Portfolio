@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio{% endblock %}
+
+{% block body %}
+<div class="container-horizontal">
+    <div class="scroll-horizontal">
+
+        {% include "Layout/slideOne.html.twig" %}
+        {% include "Layout/slideTwo.html.twig" %}
+        {% include "Layout/slideThree.html.twig" %}
+        {% include "Layout/slideFour.html.twig" %}
+
+    </div>
+</div>
+{% endblock %}

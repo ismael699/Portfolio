@@ -1,0 +1,50 @@
+/* Three */
+
+.three {
+    /*background-image: url('5.png');
+    background-size: cover;
+    background-position: center;*/
+
+    background-color: rgb(104, 22, 36);
+}
+
+@media (max-width: 768px) {
+    .container-three {
+        height: 40%;
+    }
+
+    .container-three-2 {
+        height: 60%;
+    }
+
+    #h2-name-three {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 768px) {
+    .three {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-three {
+        width: 30%;
+    }
+
+    .container-three-2 {
+        width: 70%;
+    }
+}
+
+#h2-name-three h2 {
+    font-size: 30px;
+    margin: 5px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cv {
+    padding: 10px;
+}

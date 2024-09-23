@@ -1,0 +1,50 @@
+/* Variables */
+
+.since {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    font-size: 13px;
+}
+
+.font-2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.list-s-none {
+    list-style: none;
+}
+
+a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: black;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.a:hover {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    color: black;
+}
+
+.width-30 {
+    width: 30%;
+}
+
+.width-70 {
+    width: 70%;
+}
+
+.p-0 {
+    margin: 3px;
+}

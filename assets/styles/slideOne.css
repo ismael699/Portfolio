@@ -1,0 +1,25 @@
+/* One */
+
+.one {
+    /*background-image: url('../../images/slideOne.png');
+    background-size: cover;
+    background-position: center;*/
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    opacity: 0;
+    animation: apparition 2s 0.3s forwards;
+}
+
+.content {
+    text-align: center; 
+
+    h1 {
+        font-family: "Shadows Into Light", cursive;
+        font-weight: 400;
+        font-style: normal;
+        margin: 0;
+    }
+}

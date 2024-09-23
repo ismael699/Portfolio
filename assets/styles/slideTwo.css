@@ -1,0 +1,64 @@
+/* Two */
+
+.two {
+    /*background-image: url('13.png');
+    background-size: cover;
+    background-position: center;*/
+
+    /*background-position: center;*/
+    background-color: rgb(0, 255, 8);
+}
+
+.container-two {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#h2-name-two {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.container-two-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-profil {
+    height: 35vh;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .two {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-two {
+        width: 60%;
+    }
+
+    .container-two-img {
+        width: 40%;
+    } 
+
+    #h2-name {
+        font-size: 65px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container-two {
+        height: 40%;
+    }
+
+    .container-two-img {
+        height: 60%;
+    }
+}

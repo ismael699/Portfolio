@@ -1,3 +1,8 @@
-body {
-    background-color: skyblue;
-}
+@import "./structure";
+@import "./variable";
+@import "./keyframes";
+
+@import "./slideOne";
+@import "./slideTwo";
+@import "./slideThree";
+@import "./slideFour";
