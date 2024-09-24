@@ -1,7 +1,7 @@
 /* One */
 
 .one {
-    background-image: url('../images/slideOne.png');
+    background-image: url('../../public/images/slideOne.png');
     background-size: cover;
     background-position: center;
     display: flex;

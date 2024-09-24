@@ -18,13 +18,13 @@ class ContactType extends AbstractType
             ->add('name', TextType::class, [
                 'required' => true,
                 'label' => 'Nom · 姓名', 
-                'attr' => ['placeholder' => 'Enter your name'], 
+                'attr' => ['placeholder' => '...'], 
                 //'attr' => ['class' => 'file-input'],         
             ])
             ->add('email', EmailType::class, [
                 'required' => true,
                 'label' => 'Email · 电子邮件',
-                'attr' => ['placeholder' => 'Enter your email'], 
+                'attr' => ['placeholder' => '...'], 
             ])
             ->add('phoneNumber', TextType::class, [
                 'label' => 'Numéro · 数字',
@@ -39,7 +39,7 @@ class ContactType extends AbstractType
             ->add('message', TextareaType::class, [
                 'required' => true,
                 'label' => 'Message · 信息',
-                'attr' => ['placeholder' => 'Enter your message'], 
+                'attr' => ['placeholder' => '...'], 
             ])
         ;
     }

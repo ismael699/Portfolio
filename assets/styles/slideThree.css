@@ -1,11 +1,9 @@
 /* Three */
 
 .three {
-    /*background-image: url('5.png');
+    background-image: url('../../public/images/slideThree.png');
     background-size: cover;
-    background-position: center;*/
-
-    background-color: rgb(104, 22, 36);
+    background-position: center;
 }
 
 @media (max-width: 768px) {

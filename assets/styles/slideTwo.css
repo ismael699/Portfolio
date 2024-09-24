@@ -1,12 +1,9 @@
 /* Two */
 
 .two {
-    /*background-image: url('13.png');
+    background-image: url('../../public/images/slideTwo.png');
     background-size: cover;
-    background-position: center;*/
-
-    /*background-position: center;*/
-    background-color: rgb(0, 255, 8);
+    background-position: center;
 }
 
 .container-two {
